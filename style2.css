@@ -1,0 +1,60 @@
+/* Fonte Ubuntu */
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Ubuntu', sans-serif;
+}
+body {  
+  height: 100vh;
+  background: #103f4b;
+}
+
+
+/* Menu Horizontal */
+#menu ul {
+  height: 30px;
+  width: 100%;
+  list-style:none;  
+}
+#menu ul li { 
+  display: inline; 
+}
+#menu ul li a {
+  color: rgb(255, 255, 255);
+  font-size: 23px;
+  text-decoration: none;
+  border-bottom:3px solid #157592;
+  padding: 2px 30px;
+}
+#menu ul li a:hover {
+  background-color:#157592;
+  color: white;
+  border-bottom:3px solid #1ba8d3;
+}
+
+.regras h1{
+  text-decoration: underline;
+  display: flex;
+  margin-top: 50px;
+  margin-left: 46%;
+  font-size: 42px;
+  color: #11b1e2;
+}
+p, li{
+  text-align: center;
+  font-size: 26px;
+  color: #1ba8d3;
+}
+.lista{
+    background-color: rgb(30, 98, 107);
+    border-radius: 25px;
+    display: grid;
+    text-align: justify;
+    margin-top: 60px;
+    margin-left: 300px;
+    width:720px;
+    height: 360px;
+}
